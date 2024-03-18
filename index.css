@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+header img {
+    border-radius: 40%;
+}
+
+div#quem_e {
+    font-size: 20px;
+}
+
+div#quem_e img {
+    position: relative;
+    top: 5;
+    width: 30px;
+    align-items: center;
+}
+
+div#desc {
+    margin-top: 8px;
+    font-size: large;
+    text-align: center;
+    text-indent: 20px;
+    margin-bottom: 18px;
+}
+
+div#socialmedia {
+    margin-top: 30px;
+    background-color: antiquewhite;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 44px;
+    border-style: double;
+    margin-bottom: 30px;
+}
+
+div#peopleinarea {
+    align-items: center;
+    text-align: center;
+}
+
+*[for="professional"] {
+    text-align: center;
+}
+
+*[for="seta"] {
+    width: 60px;
+}
