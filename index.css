@@ -5,15 +5,26 @@
 }
 
 header {
-    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 30px;
+    background-image:url(./media/pato_banner.jpg); background-repeat: no-repeat; background-size: 1000px;
 }
 
 header img {
     border-radius: 40%;
+    object-position: top;
+
+}
+
+header h1 {
+    font-size: 50px;
+    background-color: yellow; border-radius: 12px;
+    font-style:inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 2000;
+    font-kerning: auto;
 }
 
 div#quem_e {
