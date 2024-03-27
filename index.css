@@ -58,8 +58,25 @@ div#socialmedia {
 
 div#peopleinarea {
     align-items: center;
+    align-content: space-between;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
+
+div#peopleinarea h2{
+    margin-block-start: 5px;
+}
+#setinha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#kevin{
+    margin-top: 35px;
+}
+
 
 *[for="professional"] {
     text-align: center;
@@ -67,4 +84,11 @@ div#peopleinarea {
 
 *[for="seta"] {
     width: 60px;
+    justify-content: space-around;
+    align-self: center;
+    margin-left: 415;
+}
+
+div#form h3{
+    margin-top: 50px;
 }
