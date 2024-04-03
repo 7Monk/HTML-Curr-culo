@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 30px;
-    background-image:url(./media/pato_banner.jpg); background-repeat: no-repeat; background-size: 1000px;
+    background-image:url(./media/pato_banner.jpg); background-repeat: no-repeat; background-size: 100%;
 }
 
 header img {
@@ -67,11 +67,6 @@ div#peopleinarea {
 div#peopleinarea h2{
     margin-block-start: 5px;
 }
-#setinha{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 #kevin{
     margin-top: 35px;
@@ -82,11 +77,15 @@ div#peopleinarea h2{
     text-align: center;
 }
 
-*[for="seta"] {
-    width: 60px;
-    justify-content: space-around;
-    align-self: center;
-    margin-left: 415;
+#seta {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seta img {
+    width: 90px;
 }
 
 div#form h3{
