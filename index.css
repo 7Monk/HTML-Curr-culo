@@ -1,93 +1,82 @@
 * {
     padding: 0px;
-    margin: 0px;
+    margin: 5px;
     box-sizing: border-box;
 }
 
+body {
+    color: rgba(252, 180, 167, 0.841);
+    background-image: url("./media/back\ geral\ gif.gif"); background-size: cover;
+    font-family:fantasy;
+}
+
 header {
+    margin-top: 3%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 30px;
-    background-image:url(./media/pato_banner.jpg); background-repeat: no-repeat; background-size: 100%;
+    
+    
 }
 
 header img {
-    border-radius: 40%;
-    object-position: top;
-
+    border-radius: 44%;
+    border-color: rgb(157, 26, 37);
+    width: 80%;
 }
 
 header h1 {
-    font-size: 50px;
-    background-color: yellow; border-radius: 12px;
+    font-size: 85px;
+    background-color: rgba(134, 42, 42, 0.902); border-radius: 12px; border-style:groove; border-color: rgba(255, 56, 56, 0.965);
     font-style:inherit;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 2000;
     font-kerning: auto;
 }
 
-div#quem_e {
-    font-size: 20px;
+#quem_e {
+    font-size: 400%;
+    text-align: center;
 }
 
-div#quem_e img {
+#quem_e img {
     position: relative;
-    top: 5;
-    width: 30px;
+    width: 4%;
     align-items: center;
 }
 
-div#desc {
-    margin-top: 8px;
-    font-size: large;
-    text-align: center;
-    text-indent: 20px;
-    margin-bottom: 18px;
-}
-
-div#socialmedia {
-    margin-top: 30px;
-    background-color: antiquewhite;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 44px;
-    border-style: double;
-    margin-bottom: 30px;
-}
-
-div#peopleinarea {
+#desc ul {
+    font-size: 28px;
     align-items: center;
-    align-content: space-between;
+    justify-content: center;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
 }
 
-div#peopleinarea h2{
-    margin-block-start: 5px;
-}
-
-#kevin{
-    margin-top: 35px;
-}
-
-
-*[for="professional"] {
+#desc h3 {
+    font-size: 36;
     text-align: center;
 }
 
-#seta {
-    justify-content: space-between;
+#socialmedia {
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#seta img {
-    width: 90px;
+#socialmedia img {
+    width: 180;
+    justify-content: space-between;
 }
 
-div#form h3{
-    margin-top: 50px;
+#socialmedia h2, #socialmedia h3 {
+    font-size: 410%;
+}
+
+
+#socialmedia .dl {
+    background-image: url("./media/back\ social\ media\ gif.gif");
 }
