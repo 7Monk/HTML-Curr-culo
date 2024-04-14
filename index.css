@@ -46,12 +46,23 @@ header h1 {
     align-items: center;
 }
 
+#desc {
+    outline: red 1px solid;
+    text-align: center;
+}
+
 #desc ul {
     font-size: 28px;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     display: inline-block;
+    outline: red 1px solid;
+    margin: auto;
+}
+
+#desc li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 #desc h3 {
