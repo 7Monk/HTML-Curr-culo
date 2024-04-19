@@ -4,35 +4,61 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: rgba(252, 180, 167, 0.841);
     background-image: url("./media/back\ geral\ gif.gif"); background-size: cover;
-    font-family:fantasy;
+    font-family: fantasy;
 }
 
 header {
-    margin-top: 3%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
-    
-    
+    padding: 2%;
 }
 
-header img {
+header h2 {
+    display: flex;
+    font-size: 250%;
+    align-self: auto;
+    justify-content: center;
+    text-align: center;
+    margin-right: 67%;
+}
+
+header #profpic {
     border-radius: 44%;
     border-color: rgb(157, 26, 37);
     width: 80%;
 }
 
+header a img {
+    width: 30%;
+}
+
 header h1 {
+    margin-right: 8%;
     font-size: 85px;
     background-color: rgba(134, 42, 42, 0.902); border-radius: 12px; border-style:groove; border-color: rgba(255, 56, 56, 0.965);
     font-style:inherit;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 2000;
     font-kerning: auto;
+}
+
+.socialbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.org {
+    height: 100%;
 }
 
 #quem_e {
@@ -47,16 +73,20 @@ header h1 {
 }
 
 #desc {
-    outline: red 1px solid;
     text-align: center;
 }
 
+.desc {
+    margin-top: 150px;
+}
+
 #desc ul {
-    font-size: 28px;
+    background-color: rgba(236, 112, 112, 0.214);
+    border-radius: 15px;
+    font-size: 300%;
     text-align: center;
     display: inline-block;
-    outline: red 1px solid;
-    margin: auto;
+    margin: 80px;
 }
 
 #desc li {
@@ -66,11 +96,16 @@ header h1 {
 }
 
 #desc h3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
     font-size: 36;
     text-align: center;
 }
 
 #socialmedia {
+    margin-top: 16px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -86,7 +121,6 @@ header h1 {
 #socialmedia h2, #socialmedia h3 {
     font-size: 410%;
 }
-
 
 #socialmedia .dl {
     background-image: url("./media/back\ social\ media\ gif.gif");
